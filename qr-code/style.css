@@ -1,0 +1,38 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+body {
+    background-color: var(--Lightgray);
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+.qr-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+}
+.qr-code  {
+    display:flex;
+    justify-content: center;
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 50%;
+    border: 1px solid white;
+}
+.textone {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.texttwo {
+    text-align: center;
+    color: var(--Grayishblue) ;
+}
